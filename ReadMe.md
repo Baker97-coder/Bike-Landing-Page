@@ -1,0 +1,1 @@
+Landing Page meant to showcase my skills in HTML/CSS and javaScript.
