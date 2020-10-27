@@ -1,0 +1,33 @@
+body {
+    background-color:#F7F8EA;
+  }
+
+
+.header {
+    grid-area: header;
+    background-color: #F7F8EA;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    }
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header' 
+        'left left middle middle right right' 
+        'footer footer footer footer footer footer';
+     grid-column-gap: 10px; 
+    } 
+
+.left {
+    grid-area: left;
+    }
+
+.middle {
+    grid-area: middle;
+    }
+    
+.right {
+    grid-area: right;
+    }
